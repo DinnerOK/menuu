@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Меню ресторана</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+  }
+  header {
+   background-color: #FFA07A;
+   color: #fff;
+   padding: 20px;
+   text-align: center;
+  }
+  nav {
+   background-color: #FFEBCD;
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+  }
+  nav a {
+   color: #000;
+   font-size: 22px;
+   margin: 0 10px;
+   text-decoration: none;
+   transition: color 0.3s;
+  }
+  nav a:hover {
+   color: #FF6347;
+  }
+  section {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 20px;
+  }
+  .item {
+   background-color: #fff;
+   border: 1px solid #ddd;
+   box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+   flex-basis: 300px;
+   margin: 10px;
+   padding: 20px;
+   text-align: center;
+   transition: box-shadow 0.3s;
+  }
+  .item:hover {
+   box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+  }
+  .item img {
+   max-width: 100%;
+  }
+  .item h3 {
+   font-size: 24px;
+   margin-top: 10px;
+  }
+  .item p {
+   font-size: 16px;
+   margin-top: 10px;
+  }
+  .item span {
+   display: inline-block;
+   font-size: 18px;
+   margin-top: 10px;
+   padding: 5px 10px;
+   background-color: #FFA07A;
+   color: #fff;
+   border-radius: 5px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Меню ресторана</h1>
+</header>
+<nav>
+  <a href="#">Завтраки</a>
+  <a href="#">Обеды</a>
+  <a href="#">Ужины</a>
+  <a href="#">Напитки</a>
+</nav>
+<section>
+  <div class="item">
+   <img src="q.png" alt="Завтрак">
+   <h3>Завтрак</h3>
+   <p>Яичница с беконом, тосты с маслом и джемом, кофе или чай</p>
+   <span>199 руб.</span>
+  </div>
+<div class="item">
+   <img src="e.png" alt="Завтрак">
+   <h3>Завтрак</h3>
+   <p>Яичные конвертики с сыром и ветчиной</p>
+   <span>290 руб.</span>
+  </div>
+<div class="item">
+   <img src="r.png" alt="Завтрак">
+   <h3>Завтрак</h3>
+   <p>Большой драник с начинкой из плавленого сыра и зелени</p>
+   <span>330 руб.</span>
+  </div>
+<div class="item">
+   <img src="d.png" alt="Завтрак">
+   <h3>Завтрак</h3>
+   <p>Сырники</p>
+   <span>149 руб.</span>
+  </div>
+<div class="item">
+   <img src="p.png" alt="Обед">
+   <h3>Обед</h3>
+   <p>Лагман с курицей</p>
+   <span>390 руб.</span>
+  </div>
+  <div class="item">
+   <img src="f.png" alt="Обед">
+   <h3>Обед</h3>
+   <p>Салат из свежих овощей, крем-суп из брокколи, гриль из свиной шейки, картофель фри</p>
+   <span>490 руб.</span>
+  </div>
+<div class="item">
+   <img src="u.png" alt="Обед">
+   <h3>Обед</h3>
+   <p>Курица, тушенная в кисло-сладком соусе с болгарским перцем и морковью</p>
+   <span>420 руб.</span>
+  </div>
+<div class="item">
+   <img src="a.png" alt="Обед">
+   <h3>Обед</h3>
+   <p>Гороховый суп-пюре с жареными шампиньонами (на курином бульоне)</p>
+   <span>390 руб.</span>
+  </div>
+<div class="item">
+   <img src="y.png" alt="Ужин">
+   <h3>Ужин</h3>
+   <p>Жюльен с курицей и грибами</p>
+   <span>620 руб.</span>
+  </div>
+<div class="item">
+   <img src="o.png" alt="Ужин">
+   <h3>Ужин</h3>
+   <p>Шашлык из говядины</p>
+   <span>990 руб.</span>
+  </div>
+<div class="item">
+   <img src="s.png" alt="Ужин">
+   <h3>Ужин</h3>
+   <p>Гедлибже (курица, тушенная в сметане)</p>
+   <span>349 руб.</span>
+  </div>
+<div class="item">
+   <img src="i.png" alt="Ужин">
+   <h3>Ужин</h3>
+   <p>Говяжий стейк, запеченная картошка, салат Цезарь, бутылка красного вина</p>
+   <span>1590 руб.</span>
+  </div>
+  <div class="item">
+   <img src="t.png" alt="Напитки">
+   <h3>Напитки</h3>
+   <p>Кола, лимонады, соки, пиво, вино, коктейли</p>
+   <span>от 99 руб.</span>
+  </div>
+</section>
+</body>
+</html>
